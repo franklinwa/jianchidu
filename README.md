@@ -41,10 +41,10 @@ npm list
 npm list -g --depth=0
 查询第一层级的模块。
 
+www
 
 
-
-
+wwww
 
 
 参考网址：https://my.oschina.net/dkvirus/blog/1137857
