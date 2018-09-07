@@ -19,5 +19,29 @@ engines属性可以告诉系统当前项目依赖node的那个版本，npm依赖
 --save  可以将模块信息记录到package.json文件中dependencies属性中。
 --save-dev 可以将模块信息记录到package.json文件中devDependencise。
 
+卸载模块
+uninstall
+cnpm uninstall  模块名 
+该命令卸载后，在package.json中的记录仍然存在。
+增加--save参数后，卸载模块同时删除package.json
+npm uninstall 模块名@版本号，比如@3.*
+
+模块更新
+npm update 模块名
+将模块更新到小版本好的最高版本。
+增加--save参数，可以将更新信息记录到package.json文件中。
+npm update 模块名@版本号
+
+查看全局模块
+npm list -g
+该命令打印出全局安装的模块，并显示出全局安装的路径。
+查看本地模块
+npm list
+
+npm list -g --depth=0
+查询第一层级的模块。
+
+
+
 
 参考网址：https://my.oschina.net/dkvirus/blog/1137857
