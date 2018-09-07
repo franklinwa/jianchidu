@@ -53,7 +53,8 @@ npm list -g --depth=0
 
 cnpm install webpack --save-dev
 
-
+#修改git不用每次都输入用户名和密码
+git config --global credential.helper wincred
 
 
 // webpack2 需要引入path 使用绝对路径
