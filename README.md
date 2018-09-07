@@ -42,8 +42,8 @@ npm list -g --depth=0
 查询第一层级的模块。
 
 # 安装webpack
-###设置目录
-####目录结构说明： 
+### 设置目录
+#### 目录结构说明： 
 ##### study-es6: 项目名 
 ##### dist/js：存放打包后的文件； 
 ##### src：开发环境访问的目录； 
@@ -53,7 +53,7 @@ npm list -g --depth=0
 
 cnpm install webpack --save-dev
 
-#修改git不用每次都输入用户名和密码
+# 修改git不用每次都输入用户名和密码
 git config --global credential.helper wincred
 
 
