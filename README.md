@@ -56,6 +56,12 @@ cnpm install webpack --save-dev
 # 修改git不用每次都输入用户名和密码
 git config --global credential.helper wincred
 
+# 关联到远程库
+
+### git remote add origin 你的远程库地址
+### 如：
+### 
+### git remote add origin https://github.com/cade8800/ionic-demo.git
 
 // webpack2 需要引入path 使用绝对路径
 const path = require('path')
