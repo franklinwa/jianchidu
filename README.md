@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ES6_Enviromment_Creat
 建立ES6开发环境
 
@@ -107,3 +108,15 @@ module.exports = {
 ### ·  git add .  提交新文件(new)和被修改(modified)文件，不包括被删除(deleted)文件
 
 参考网址：https://my.oschina.net/dkvirus/blog/1137857
+=======
+# jianchidu
+坚持读项目的建设内容...
+>>>>>>> 3cd696d159199bda062d28a64579d9310aacc383
+
+# 合并冲突问题
+我在Github新建一个仓库，写了License，然后把本地一个写了很久仓库上传。
+先pull，因为两个仓库不同，发现refusing to merge unrelated histories，无法pull
+因为他们是两个不同的项目，要把两个不同的项目合并，git需要添加一句代码，在git pull，
+这句代码是在git 2.9.2版本发生的，最新的版本需要添加--allow-unrelated-histories
+git pull origin master --allow-unrelated-histories
+
