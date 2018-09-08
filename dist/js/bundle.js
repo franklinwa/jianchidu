@@ -78,9 +78,9 @@ const a = 5;
 const b = 6;
 
 var sum = __WEBPACK_IMPORTED_MODULE_0__calculator__["a" /* default */].sum(a, b);
-console.log(sum);
-console.log(__WEBPACK_IMPORTED_MODULE_0__calculator__["b" /* name */]);
-console.log(__WEBPACK_IMPORTED_MODULE_0__calculator__["c" /* yo */]);
+console.log(`calculator来自模块化开发功能import calculator from './calculator',该sum的结果(${sum})就是import语法引入的calculator文件中的sum功能`);
+console.log(`imya的值${__WEBPACK_IMPORTED_MODULE_0__calculator__["b" /* name */]}来自模块化开发功能import {name as imya} form './calculator', `);
+console.log(`yo的值${__WEBPACK_IMPORTED_MODULE_0__calculator__["c" /* yo */]}来自模块化开发功能import {yo} form './calculator', `);
 
 /***/ }),
 /* 1 */
@@ -107,7 +107,7 @@ var calculator = {
 /* 2 */
 /***/ (function(module, exports) {
 
-console.log('ES import 文件测试成功');
+console.log("ES import 文件测试成功!语法为：import './conso'");
 
 /***/ })
 /******/ ]);
