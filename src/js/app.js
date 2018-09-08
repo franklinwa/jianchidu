@@ -1,8 +1,3 @@
-
-import 'bootstrap/dist/js/bootstrap.js';
-import  { jcD } from'./jcd.js';
-
-
 $(document).ready(function () {
     $('button').click(() => {
         let contentStr = [];
@@ -19,4 +14,3 @@ $(document).ready(function () {
         // console.log(contentStr);
     });
 });
-
