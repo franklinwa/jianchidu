@@ -27,3 +27,46 @@
 ### [class = "content"]
 
 ### 权重可以相加...
+
+# 分组选择器
+### em, strong, span{}
+### em, 
+### strong, 
+### span{}
+
+# font-weight的四种类型
+
+### lighter normal bold bolder
+
+# font-style属性值
+
+### italic 
+
+# font-family的属性值
+
+### arial 
+
+# font-size  color
+
+# color的属性值
+
+### 英文单词 颜色代码  颜色函数
+
+### 颜色代码 红r 绿g 蓝b
+
+### 颜色函数 rge（255，255，255）
+
+# border 给容器加边框  符合属性
+
+### border:1px solid balck
+### border-width
+### border-style：solid dotted dashed
+### border-left
+### border-right-color
+### border-top-color
+### border-bottom-color
+
+### 透明色transparent
+
+
+
