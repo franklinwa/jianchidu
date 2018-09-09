@@ -10447,21 +10447,21 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-$(document).ready(function () {
-    $('button').click(() => {
-        let contentStr = [];
-        console.log("test");
-        let str = $('#content').val();
-        $('#content').val(__WEBPACK_IMPORTED_MODULE_1__jcd_js__["a" /* jcD */].clearBlankRow(str));
+// $(document).ready(function () {
+$('button').click(() => {
+    let contentStr = [];
+    console.log("test");
+    let str = $('#content').val();
+    $('#content').val(__WEBPACK_IMPORTED_MODULE_1__jcd_js__["a" /* jcD */].clearBlankRow(str));
 
-        contentStr = __WEBPACK_IMPORTED_MODULE_1__jcd_js__["a" /* jcD */].clearBlankRow(str).split(/[\n]/);
-        contentStr.map((item, key) => {
-            console.log(`key${key}:${item}`);
-        });
-        // console.log($('#content').val());
-        // console.log(contentStr);
+    contentStr = __WEBPACK_IMPORTED_MODULE_1__jcd_js__["a" /* jcD */].clearBlankRow(str).split(/[\n]/);
+    contentStr.map((item, key) => {
+        console.log(`key${key}:${item}`);
     });
+    // console.log($('#content').val());
+    // console.log(contentStr);
 });
+// });
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(0)))
 
 /***/ }),

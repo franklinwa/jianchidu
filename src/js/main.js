@@ -3,7 +3,7 @@ import 'bootstrap/dist/js/bootstrap.js';
 import  { jcD } from'./jcd.js';
 
 
-$(document).ready(function () {
+// $(document).ready(function () {
     $('button').click(() => {
         let contentStr = [];
         console.log("test");
@@ -18,5 +18,5 @@ $(document).ready(function () {
         // console.log($('#content').val());
         // console.log(contentStr);
     });
-});
+// });
 
