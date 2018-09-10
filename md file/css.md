@@ -100,7 +100,7 @@ class 属性 伪类|10
 # <del>标签尽量不能使用
 
 # text-decoration 的属性
-### line-  , none, underline ,overline
+### line-  , none, underline ,overline,line-through
 
 # cursor属性光标定位值 
 
@@ -165,3 +165,5 @@ class 属性 伪类|10
 
 ### 如何做圆环，   width:50px;height:50px;border:10px  solid  red ;border-radius：50%；
 
+
+# Color Palette
