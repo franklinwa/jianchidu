@@ -9,3 +9,15 @@
 
 ### specificity.keegan.st
 ### cssspecificity.com
+
+# bug 修复
+
+www.paulirish.com/2012/box-sizing-border-box-ftw
+```
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+```

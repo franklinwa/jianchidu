@@ -167,3 +167,37 @@ class 属性 伪类|10
 
 
 # Color Palette
+
+# Block Elements 
+
+1.Height = content
+2.Width = 100% of container
+3.Elements start on a new line
+4.Block elements can wrap other block and inline elements
+Block元素可转化为inline元素，通过display属性，inline，inline-block
+
+# Inline Elements
+
+1.Height and width = content
+2.Element align left ,in a line
+3.Inline element can only nest other inline elements
+<p> <span> </span> </p>正取
+<p> <div> </div> </p>  错误
+
+Inline 元素可以转化为block元素，通过display属性，block，inline-block
+
+# 隐藏属性 display：none
+
+# block居中 margin：0 auto；
+
+# max-width: 950;
+# min-height
+# margin: 0 auto;
+
+# clear:both  清除任何左右的float
+
+# overflow 有两个属性 一个是hidden 一个是auto 
+
+
+
+
