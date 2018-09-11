@@ -199,5 +199,13 @@ Inline 元素可以转化为block元素，通过display属性，block，inline-b
 # overflow 有两个属性 一个是hidden 一个是auto 
 
 
+# element:nt-child(odd) 该选择符可以将第1、3、5、7、9等奇数元素选择出来。
+# element:nt-child(even) 该选择符可以把第2、4、6、8、10等奇数元素选择出来。
+# element:nt-child(数字)，该选择符里面可以是数字
+# element:nt-child(3n+1)，该选择符里面可以是数字的组合。
 
+# ：first-child :first-of-type
 
+# ：last-child :last-of-type
+
+# :nth-child()   :nth-of-type()
