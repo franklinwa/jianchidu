@@ -209,3 +209,10 @@ Inline 元素可以转化为block元素，通过display属性，block，inline-b
 # ：last-child :last-of-type
 
 # :nth-child()   :nth-of-type()
+
+
+# Float,dispaly,and position 不能够被同时一起使用。如果使用position，那么float就被忽略。反之亦然。
+
+# p:before   
+
+# text-transform:uppercase  将字符转换成大写
