@@ -1,0 +1,10 @@
+
+/* :matches(section) a{
+    color: green;
+} */
+:-webkit-any(section) a{
+    color: green;
+}
+:-moz-any(section) a{
+    color: green;
+}
