@@ -81,3 +81,73 @@ img{
 .main-nav a:hover{
     color:#093a58;
 }
+
+/* -------- Layout Containers -------- */
+.main-header{
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.banner,
+.main-footer{
+    text-align: center;
+
+}
+
+.banner{
+    color: #ffffff;
+    background: #3acec2;
+    padding: 3.2em 0;
+    margin-bottom: 48px;
+}
+
+.col{
+    padding-right: 1em;
+    padding-left: 1em;
+}
+.main-footer{
+    background:#d9e4ea;
+    padding:2em 0;
+    margin-top: 30px;
+}
+
+
+/* -------- Page Elements -------- */
+.logo{
+    width: 190px;
+    border-radius:50px;
+}
+.headline{
+    margin-bottom: 0;
+
+}
+.feat-img{
+    border-radius: 5px;
+}
+
+/* ========================================
+              Media Queries
+
+    min-width 
+
+===========================================*/
+
+@media(min-width:769px){
+    .main-header,
+    .row{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .tagline{
+        font-size: 1.4em;
+    }
+}
+
+@media(min-width:1025px){
+    .main-header,
+    .row{
+        width: 80%;
+        max-width: 1150px;
+        
+    }
+}
